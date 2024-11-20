@@ -1,0 +1,51 @@
+  .header{
+    background-color: #434242;
+  }
+  .container{
+    margin: auto;
+    max-width: 1100px;
+  }
+  .header-container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .link{
+    color: #f8f6ee;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  *{
+    margin: 0;
+  }
+    
+  .header {
+     background-image: url(https://cdn.puzzlegarage.com/img/puzzle/6/7494_preview_r.v3.jpg);
+     background-size: cover;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-repeat: no-repeat;
+  }
+  .title {
+     color: #ffffff;
+     font-size: 100px;
+     font-family: Verdana;
+  }
+
+  .card{
+    border: 1px solid #222222;  /* рамка толщиной 1px */
+    border-radius: 20px;        /* закругление границ */
+    padding: 30px 20px;         /* внутренние отступы */
+    width: 300px;               /* ширина карточки */
+    height: 350px;              /* высота карточки */
+    text-align: center;         /* выравнивание текста по центру */
+ }
+ 
+ .card p{
+    font-size: 24px;            /* размер шрифта */
+    margin-top: 20px;           /* отступ от картинки */
+ }
